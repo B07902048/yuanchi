@@ -1,0 +1,32 @@
+<!-- Footer -->
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3><i class="fa fa-map-marker"></i> 聯絡我們︰</h3>
+        <p class="footer-contact">
+          {{ site.company_name }} <br>
+          Email: {{ site.company_email }}<br>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-heart"></i> 社群︰</h3>
+        <div id="social-icons">
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="{{ site.instagram_link }}" class="btn-group instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="{{ site.youtube_link }}" class="btn-group youtube">
+              <i class="fa fa-youtube"></i>
+            </a>
+        </div>
+      </div>    
+    </div>
+  </div>
+
+  <div class="copyright text center">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}.<br>Theme ported by <a href="https://b07902048.github.io/yuanchi" target="_blank">Anthony Li</a></p>
+  </div>
+</footer>
