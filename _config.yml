@@ -16,8 +16,8 @@
 title: 武陵元氣營 | 志工團隊
 email: yuanchi.wlsh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+  武陵元氣營2.0網站
+  武陵元氣營，由武陵高中的學生自組而成，每年暑假到偏鄉國小服務，希望帶給小朋友不同於課本的知識。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
